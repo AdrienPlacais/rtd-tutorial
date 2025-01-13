@@ -10,6 +10,7 @@ Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 Lumache hosts its documentation on Read the Docs.
+Remember to commit on a new branch.
 
 .. note::
 
