@@ -16,6 +16,8 @@ Remember to commit on a new branch.
 
    This project is under active development.
 
+This line was added at version 1.0.1.
+
 Contents
 --------
 
