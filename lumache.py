@@ -2,11 +2,14 @@
 Lumache - Python library for cooks and food lovers.
 """
 
+import numpy as np
+
 __version__ = "0.1.0"
 
 
 class InvalidKindError(Exception):
     """Raised if the kind is invalid."""
+
     pass
 
 
@@ -21,3 +24,12 @@ def get_random_ingredients(kind=None):
     :rtype: list[str]
     """
     return ["shells", "gorgonzola", "parsley"]
+
+
+def create_array() -> np.ndarray:
+    """Create a dummy numpy array.
+
+    :return: A dummy array.
+    :rtype: numpy.ndarray
+    """
+    return np.eye(2)
